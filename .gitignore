@@ -1,0 +1,8 @@
+# skip archives  
+**/archives/*
+# skip perso files
+**/perso/*
+**.bak
+/.vscode/*
+*.oxo
+*.bat
