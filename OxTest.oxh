@@ -104,9 +104,8 @@ static TS_ASSERT(const statement,   oTestResult , message="")
 * @param    val1 (double), expected value.
 * @param    val2 (double), actual value.
 * @param    tolerance double, the precision.
-* @param    oTestResult  (TestResult, by reference) this value is set to FALSE if condition fails.
-* @param    bRaiseError boolean, if TRUE this function raises an error if the condition is not met.
-						it must be transmitted (untouched) form the argument of the parent's function.
+* @param    oTestResult  (TestResult, by reference)  Argument that must be transmitted (untouched) form the argument of the parent's function.
+* @param    message (string) Information about the current assert. 
 *
 * To assert that val1 and val2 are not equal, @see  TS_ASSERT_NOT_EQUAL
 */
